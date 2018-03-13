@@ -1,5 +1,4 @@
-module.exports = function getZerosCount(number, base) {
-  function sortUnique(arr) {
+function sortUnique(arr) {
   arr.sort();
   var last_i;
   for (var i=0;i<arr.length;i++)
@@ -84,4 +83,3 @@ module.exports = function getZerosCount(number, base) {
   counter = min(zerosArray);
   return counter;
 };
-}
